@@ -19,6 +19,7 @@ Python Flask SQLite Google Gemini API Web Speech API
 MascotTalk Tutor
 AI 기반 외국어 회화 학습 웹 애플리케이션
 
+```
 프로젝트 구조
 mascot-tutor/
 ├── app.py                    # Flask 앱 진입점
@@ -80,6 +81,7 @@ mascot-tutor/
         ├── sidebar.html       # 좌측 대화 목록
         ├── rightbar.html      # 우측 통계
         └── modals.html        # 모달들
+```
 주요 기능
 🎯 회화 학습
 다국어 지원 (영어, 일본어, 중국어, 한국어, 스페인어 등)
