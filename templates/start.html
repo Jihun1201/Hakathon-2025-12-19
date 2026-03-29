@@ -1,0 +1,26 @@
+{% extends "layout/base.html" %}
+{% block title %}Start | MascotTalk Tutor{% endblock %}
+
+{% block content %}
+<div id="startPage" class="page active">
+    <div class="start-page">
+        <div class="logo-text">MascotTalk Tutor</div>
+
+        <div class="card">
+            <div class="section">
+                <div class="section-title">학습할 언어 선택</div>
+                <select id="targetLang">
+                    <option value="">언어 선택</option>
+                    <option value="en">English</option>
+                    <option value="ko">한국어</option>
+                    <option value="ja">日本語</option>
+                </select>
+            </div>
+
+            <button class="btn btn-primary" id="startBtn">
+                Start Talking
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}

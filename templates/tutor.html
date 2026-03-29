@@ -1,0 +1,16 @@
+{% extends "layout/base.html" %}
+{% block title %}Tutor | MascotTalk Tutor{% endblock %}
+
+{% block content %}
+<div id="tutorPage" class="page active">
+    <div class="tutor-page">
+
+        {% include "components/sidebar.html" %}
+        {% include "components/chat.html" %}
+        {% include "components/rightbar.html" %}
+
+    </div>
+</div>
+
+{% include "components/modals.html" %}
+{% endblock %}
